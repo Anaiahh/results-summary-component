@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "hanken";
+    src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "hanken";
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.result{
+    flex-grow: 1;
+}
+.summary{
+    flex-grow: 1;
+    padding: 8px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    width: 50%;
+}
+.summary--card{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+.summary--card .title{
+    display: flex;
+}
+.result{
+   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card .result h1{
+    font-size: 15px;
+}
+.card .result .number{
+    font-size: 60px;
+    font-weight: 600px;
+}
+.card .result .number span{
+    font-size: 20px;
+    display: block;
+}
+.number{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0) );
+    border-radius: 200px;
+    padding: 40px;
+    width: 170px;
+    height: 170px;
+}
+.card .result .number p{
+    font-size: 18px;
+    font-weight: 0;
+}
+
+
+
+.card .summary--card .note{
+    color: black;
+}
+.Reaction{
+    background-color: hsla(0, 100%, 67%, 0.089);
+    border-radius: 5px;
+    color: hsl(0, 100%, 67%);
+
+}
+.Memory{
+    background-color: hsla(39, 100%, 56%, 0.151);
+    border-radius: 5px;
+    color: hsl(39, 100%, 56%);
+}
+.Verbal{
+    background-color: hsla(166, 100%, 37%, 0.164);
+    border-radius: 5px;
+    color: hsl(166, 100%, 37%);
+}
+.Visual{
+    background-color: hsla(234, 85%, 45%, 0.199);
+    border-radius: 5px;
+    color: hsl(234, 85%, 45%);
+}
+.summary a{
+    text-decoration: none;
+}
+.summary .btn{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+.summary .btn:hover{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%) );
+    color: white;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+@media screen {
+    
+}
